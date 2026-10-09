@@ -5,7 +5,7 @@
 ### *Self-Reflective Dynamic Episodic Memory & Autonomous Self-Healing Agent Engine*
 
 [![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Tests Status](https://img.shields.io/badge/tests-16%20passed-brightgreen.svg?logo=pytest&logoColor=white)](tests/)
 [![Architecture](https://img.shields.io/badge/architecture-Reflexion%20%2B%20ChromaDB%20%2B%20SQLite-purple.svg)](#-system-architecture)
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
