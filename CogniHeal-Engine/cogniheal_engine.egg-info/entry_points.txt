@@ -1,4 +1,0 @@
-[console_scripts]
-cg = cogniheal.cli:interactive_mode
-cogni = cogniheal.cli:interactive_mode
-cogniheal = cogniheal.cli:main
