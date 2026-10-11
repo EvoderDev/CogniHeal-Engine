@@ -235,13 +235,29 @@ $$c_t \sim \pi_\theta\left( \cdot \;\middle|\; \text{Prompt}, \mathcal{H}_t, \bi
 
 ## 📦 Installation & Quickstart
 
+### ⚡ 1-Click Automated Setup (Recommended)
+
+Run the single-click setup script for your operating system to automatically verify Python `>=3.11`, provision a dedicated `.venv` virtual environment, and install all dependencies:
+
+**Windows (PowerShell / Command Prompt):**
+```cmd
+setup.bat
+```
+
+**Linux / macOS:**
+```bash
+chmod +x setup.sh && ./setup.sh
+```
+
+---
+
 ### System Requirements
 
 - **Python**: `>= 3.11` (Tested on 3.11 and 3.12)
 - **OS**: Windows 10/11, macOS (Apple Silicon / Intel), or Linux (Ubuntu 22.04+)
 - **Optional**: Docker daemon running (if using `--sandbox-mode docker`)
 
-### 1. Installation
+### 1. Manual Installation
 
 ```bash
 # Clone the repository
@@ -249,17 +265,17 @@ git clone https://github.com/EvoderDev/CogniHeal-Engine.git
 cd CogniHeal-Engine
 
 # Create and activate virtual environment
-python -m venv venv
+python -m venv .venv
 
 # On Linux/macOS:
-source venv/bin/activate
-# On Windows PowerShell:
-.\venv\Scripts\Activate.ps1
+source .venv/bin/activate
+# On Windows (PowerShell / CMD):
+.venv\Scripts\activate
 
 # Install requirements
 pip install -r requirements.txt
 
-# Install CogniHeal in editable development mode (registers global commands: cogni, cg, cogniheal)
+# Install CogniHeal in editable development mode (registers commands: cogniheal, cogni, cg)
 pip install -e .
 ```
 

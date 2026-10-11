@@ -35,9 +35,9 @@ setup(
     ],
     entry_points={
         "console_scripts": [
+            "cogniheal=cogniheal.cli:main",
             "cogni=cogniheal.cli:interactive_mode",
             "cg=cogniheal.cli:interactive_mode",
-            "cogniheal=cogniheal.cli:main",
         ],
     },
     classifiers=[

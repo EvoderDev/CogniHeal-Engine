@@ -20,6 +20,8 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Testing",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
 [project.urls]
 Homepage = "https://github.com/EvoderDev/CogniHeal-Engine"
 Repository = "https://github.com/EvoderDev/CogniHeal-Engine"
@@ -42,9 +44,9 @@ dependencies = [
 ]
 
 [project.scripts]
+cogniheal = "cogniheal.cli:main"
 cogni = "cogniheal.cli:interactive_mode"
 cg = "cogniheal.cli:interactive_mode"
-cogniheal = "cogniheal.cli:main"
 
 [tool.setuptools.packages.find]
 exclude = ["tests*", "examples*"]
