@@ -31,7 +31,6 @@ setup(
         "click>=8.1.7",
         "python-dotenv>=1.0.0",
         "httpx>=0.27.0",
-        "pytest>=8.0.0",
     ],
     entry_points={
         "console_scripts": [

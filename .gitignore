@@ -38,3 +38,5 @@ logs/
 .pytest_cache/
 htmlcov/
 .coverage
+tests/
+test_*.py
